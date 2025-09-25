@@ -68,6 +68,16 @@ body{
 }
 .card-info-title {
     font-size: 1.5em;
+    text-decoration: none;
+}
+.card-info a{
+    text-decoration: none;
+    color: var(--gray-950);
+}
+
+
+.card-info-title:hover{
+    color: var(--yellow);
 }
 
 .card-info-text{
